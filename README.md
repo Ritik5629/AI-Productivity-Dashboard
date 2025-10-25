@@ -50,4 +50,38 @@ This project is designed for:
 ---
 
 ## 📁 Project Structure
+AI-Productivity-Dashboard/
+├── app.py # Flask API server
+├── main.py # Model training script
+├── student_sleep_patterns.csv # Dataset
+├── random_forest_model.pkl # Trained ML model
+├── model_metadata.json # Feature importance & metadata
+├── features_list.pkl # List of model features
+├── index.html # Web interface
+├── style.css # Stylesheet
+├── script.js # Frontend logic
+├── linear_regression_model.pkl # Backup model
+├── linear_regression_scaler.pkl # Scaler for backup model
+└── README.md # Project documentation
 
+
+---
+
+## 🚀 Setup Instructions
+
+### Prerequisites
+- Python 3.8+  
+- pip package manager  
+- Modern browser (Chrome, Firefox, Edge, Safari)  
+
+### Installation Steps
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Ritik5629/AI-Productivity-Dashboard.git
+cd AI-Productivity-Dashboard
+```
+2. Create a virtual environment
+```bash
+python -m venv venv
+```

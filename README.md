@@ -1,74 +1,75 @@
 # Student Productivity Prediction System
 
-A **machine learning-powered dashboard** that predicts student productivity based on daily activity patterns.  
-The system analyzes factors like sleep duration, study hours, screen time, physical activity, and caffeine intake to provide **personalized productivity insights and recommendations** for students.
+A machine learning-powered dashboard that predicts student productivity based on daily activity patterns. It analyzes factors like sleep, study hours, screen time, physical activity, and caffeine intake to provide personalized productivity insights.
 
----
+## Purpose
 
-## 🎯 Project Purpose
+Students: Optimize daily routines for better academic performance.
 
-This project is designed for:
+Educators: Understand factors affecting student productivity.
 
-- **Students**: Optimize daily routines for better academic performance.
-- **Educators**: Gain data-driven insights about factors affecting student productivity.
-- **Researchers**: Study the relationship between lifestyle habits and academic performance.
-- **Health Professionals**: Understand the impact of sleep and activity on cognitive function.
+Researchers: Study lifestyle habits versus academic performance.
 
----
+Health Professionals: Assess the impact of lifestyle on cognitive function.
 
-## ✨ Key Features
+## Features
 
-- **AI-Powered Predictions**: Uses a Random Forest Regressor model trained on real student data.
-- **Interactive Dashboard**: Modern, responsive interface with dark/light mode toggle.
-- **Personalized Recommendations**: Suggestions based on user input patterns.
-- **Visual Analytics**: Multiple charts showing feature impact, comparisons, and trends.
-- **Productivity Scoring**: Generates a 0–100 productivity score with confidence levels.
-- **History Tracking**: Records and visualizes prediction trends over time.
-- **Export Functionality**: Download detailed productivity reports in text format.
+AI-Powered Predictions using Random Forest Regressor
 
----
+Interactive Dashboard with dark/light mode
 
-## 🛠 Technology Stack
+Personalized Recommendations
 
-### Backend
-- Python 3.8+
-- Flask (API development)
-- Scikit-learn (ML implementation)
-- Pandas & NumPy (data manipulation)
-- Joblib (model serialization)
+Visual Analytics with charts and graphs
 
-### Frontend
-- HTML5, CSS3, JavaScript (ES6+)
-- Chart.js (data visualization)
-- Font Awesome (icons)
+Productivity Scoring (0–100)
 
-### Data Science / ML
-- Random Forest Regressor (primary prediction algorithm)
-- Feature Engineering: normalization and scaling
-- Model Evaluation: R² scoring and performance metrics
+History Tracking
 
----
+Export Functionality (CSV/PDF)
 
+## Technology Stack
 
+Backend: Python, Flask, Scikit-learn, Pandas, NumPy, Joblib
+Frontend: HTML, CSS, JavaScript, Chart.js, Font Awesome
+Machine Learning: Random Forest Regressor, Feature Scaling, Model Evaluation (R² Score)
 
+## Usage
 
----
+Enter daily activity data such as sleep hours, study hours, screen time, physical activity, and caffeine intake.
 
-## 🚀 Setup Instructions
+View your predicted productivity score.
 
-### Prerequisites
-- Python 3.8+  
-- pip package manager  
-- Modern browser (Chrome, Firefox, Edge, Safari)  
+Explore charts and visual analytics for insights.
 
-### Installation Steps
+Receive personalized recommendations to optimize daily routines.
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/Ritik5629/AI-Productivity-Dashboard.git
-cd AI-Productivity-Dashboard
-```
-2. Create a virtual environment
-```bash
-python -m venv venv
-```
+Track progress over time and export reports.
+
+## Project Structure
+
+Backend: Handles data processing, model predictions, and API endpoints.
+
+Frontend: Interactive dashboard with charts, graphs, and data input forms.
+
+Models: Trained machine learning models for productivity prediction.
+
+Data: Sample datasets used for training and testing.
+
+Static Files: Stylesheets, scripts, and images for the dashboard.
+
+## Model Evaluation
+
+Algorithm: Random Forest Regressor
+
+Metric: R² Score
+
+## Output: Provides a productivity score between 0–100 based on input features.
+
+Contributors
+
+Ritik Rana
+
+License
+
+This project is open-source and free to use, modify, and distribute.

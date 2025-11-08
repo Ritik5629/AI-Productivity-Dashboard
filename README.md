@@ -1,8 +1,8 @@
-# Student Productivity Prediction System
+# 🌟 Student Productivity Prediction System
 
 A machine learning-powered dashboard that predicts student productivity based on daily activity patterns. It analyzes factors like sleep, study hours, screen time, physical activity, and caffeine intake to provide personalized productivity insights.
 
-## Purpose
+##  🎯 Purpose
 
 Students: Optimize daily routines for better academic performance.
 
@@ -12,7 +12,7 @@ Researchers: Study lifestyle habits versus academic performance.
 
 Health Professionals: Assess the impact of lifestyle on cognitive function.
 
-## Features
+## ✨ Features
 
 AI-Powered Predictions using Random Forest Regressor
 
@@ -28,13 +28,13 @@ History Tracking
 
 Export Functionality (CSV/PDF)
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 Backend: Python, Flask, Scikit-learn, Pandas, NumPy, Joblib
 Frontend: HTML, CSS, JavaScript, Chart.js, Font Awesome
 Machine Learning: Random Forest Regressor, Feature Scaling, Model Evaluation (R² Score)
 
-## Usage
+##  🚀  Usage
 
 Enter daily activity data such as sleep hours, study hours, screen time, physical activity, and caffeine intake.
 
@@ -46,7 +46,7 @@ Receive personalized recommendations to optimize daily routines.
 
 Track progress over time and export reports.
 
-## Project Structure
+##  📁 Project Structure
 
 Backend: Handles data processing, model predictions, and API endpoints.
 
@@ -58,7 +58,7 @@ Data: Sample datasets used for training and testing.
 
 Static Files: Stylesheets, scripts, and images for the dashboard.
 
-## Model Evaluation
+## 📈 Model Evaluation
 
 Algorithm: Random Forest Regressor
 
@@ -66,10 +66,11 @@ Metric: R² Score
 
 ## Output: Provides a productivity score between 0–100 based on input features.
 
-Contributors
+ ## 👤 Contributors 
 
-Ritik Rana
+**Ritik Rana**
 
-License
+
+## 📝 License
 
 This project is open-source and free to use, modify, and distribute.
